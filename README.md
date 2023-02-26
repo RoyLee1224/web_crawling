@@ -20,7 +20,7 @@ If you have not installed these libraries, please install them with the followin
 ## How to use
 1. Clone or download the repository to your computer.
 2. Navigate to the folder where you downloaded the repository.
-3. Open Taiwan_Visitors_Association_Scraping.py with any Python IDE.
+3. Open korean.py with any Python IDE.
 4. Run the script.
 5. Quarterly magazine PDF files will be downloaded in the pdf directory.
 
