@@ -30,7 +30,7 @@ If you have not installed these libraries, please install them with the followin
 - `thema.txt` - **Theme Travel** from [테마여행](https://www.taiwantour.or.kr/bbs/board.php?bo_table=m08_01&sca=%ED%9C%B4%EC%96%91).
 - `pro.txt` - **Professional travel** from [프로대만족](https://www.taiwantour.or.kr/bbs/board.php?bo_table=m03).
 - `place.txt` - **Taiwan's attractions** from [대만 명소](https://www.taiwantour.or.kr/bbs/board.php?bo_table=m03).
-- `Quarterly magazine PDFs` -  **Vol. 44~46 quarterly magazine PDF** from [TVA website](http://www.tva.org.tw).
+- `Quarterly magazine PDFs` -  **Vol. 44~46 quarterly magazine PDF(대만관광격월간)** from [TVA website](http://www.tva.org.tw).
 
 ## Note
 - If you encounter any error or the PDF files are not downloading, please check your internet connection and try again.
