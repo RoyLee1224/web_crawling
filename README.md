@@ -33,6 +33,6 @@ If you have not installed these libraries, please install them with the followin
 
 ## Note
 - If you encounter any error or the PDF files are not downloading, please check your internet connection and try again.
-- Please change the file directory.
+- Please change the `file_dir` variale to the directory where you want to save the download files.
 - There are `20` pages in the **Professional travel(프로대만족)** and `8` pages in **Taiwan's attractions(대만 명소)** currently. Please adjust the number of pages in the `get_pro_page` and `get_place_page` functions if there's new article in those pages.
 
