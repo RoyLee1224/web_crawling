@@ -23,7 +23,7 @@ If you have not installed these libraries, please install them with the followin
 3. Open korean.py with any Python IDE.
 4. Run the script.
 5. Quarterly magazine PDF files will be downloaded in the pdf directory.
-6. Txt files will be downloaded in the txt directory.
+6. Quarterly magazine txt files will be downloaded in the txt directory.
 
 ## Description
 
