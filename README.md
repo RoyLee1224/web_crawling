@@ -21,11 +21,10 @@ If you have not installed these libraries, please install them with the followin
 ## How to use
 
 1. Clone or download the repository to your computer.
-2. Navigate to the folder where you downloaded the repository.
-3. Open main.py with any Python IDE.
-4. Run the script.
-5. Quarterly magazine PDF files will be downloaded in the pdf directory.
-6. Quarterly magazine txt files will be downloaded in the txt directory.
+2. Open main.py with any Python IDE.
+3. Run the script.
+4. Quarterly magazine PDF files will be downloaded in the pdf directory.
+5. Quarterly magazine txt files will be downloaded in the txt directory.
 
 ## Description
 
@@ -37,5 +36,4 @@ If you have not installed these libraries, please install them with the followin
 ## Note
 
 - If you encounter any error or the PDF files are not downloading, please check your internet connection and try again.
-- Please change the `file_dir` variale to the directory where you want to save the download files.
 - There are `20` pages in the **Professional travel(프로대만족)** and `8` pages in **Taiwan's attractions(대만 명소)** currently. Please adjust the number of pages in the `get_pro_page` and `get_place_page` functions if there's new article in those pages.
