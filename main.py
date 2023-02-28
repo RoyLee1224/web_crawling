@@ -12,10 +12,8 @@ from PyPDF2 import PdfReader
 from pdfminer.high_level import extract_text
 import os
 
-# <-- absolute dir the script
-file_dir = "/Users/lizhechen/Downloads/Programming/korean"
+file_dir = os.getcwd()
 # script_dir = os.path.dirname(file_name)
-os.chdir(file_dir)
 if not (os.path.exists(file_dir+"/"+'pdf')):
     os.mkdir('pdf')
 if not (os.path.exists(file_dir+"/"+'txt')):
