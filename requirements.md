@@ -5,8 +5,13 @@
    - **원하는 결과물 형태 : 테마여행 - thema.txt, 프로대만족 - pro.txt, 대만 명소 - place.txt (총 3개 파일)**
 
 2. **관광 계간지(quarterly magazine) pdf 파일 내용 수집**
+
    - 타이완 관광협회 홈페이지에 들어가기http://www.tva.org.tw
    - '출판물(PUBLICATION)' 메뉴를 선택
    - 출판물 중에서 '타이완 관광 계간지(한국어)'를 선택 (첨부파일 no.2 참고)
    - vol.44~vol.46의 모든 텍스트 수집
    - **원하는 결과물 형태 : vol.44 - v44.txt,  vol.45- v45.txt,  vol.46 - v46.txt  (총 3개 파일)**
+
+3. **03/15 Two versions of text file:**
+   1. separated by pages(ex: v01-p1.txt)
+   2. separated by volumes(ex: v01.txt)
