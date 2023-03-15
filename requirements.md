@@ -13,3 +13,7 @@
     - 출판물 중에서 '타이완 관광 계간지(한국어)'를 선택 (첨부파일 no.2 참고)
     - vol.44~vol.46의 모든 텍스트 수집 
     - **원하는 결과물 형태 : vol.44 - v44.txt,  vol.45- v45.txt,  vol.46 - v46.txt  (총 3개 파일)**
+
+3. **03/15 Two versions of text file:**
+      1. separated by pages(ex: v01-p1.txt)
+      2. separated by volumes(ex: v01.txt)
