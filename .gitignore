@@ -2,6 +2,9 @@
 *.pdf
 pdf/
 txt/
+txt_pages/
+txt_volumes/
+cache/
 
 *.ipynb
 .ipynb_checkpoints
