@@ -1,11 +1,7 @@
 import requests
-from bs4 import BeautifulSoup
-
-# from PyPDF2 import PdfReader
 
 from pdfminer.high_level import extract_text
 import os
-
 
 # In[120]:
 
