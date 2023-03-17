@@ -21,4 +21,4 @@ if not (os.path.exists(file_dir+"/"+'cache')):
 # In[6]:
 getTaiwanTour()
 # In[10]:
-getMagazine()
+getMagazine(48)

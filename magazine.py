@@ -5,7 +5,6 @@ import os
 
 # In[120]:
 
-
 from PyPDF4 import PdfFileReader, PdfFileWriter
 import pdfplumber
 
@@ -23,7 +22,8 @@ from htmlRequest import getHTML
 file_dir = os.getcwd()
 
 
-def getMagazine():
+def getMagazine(pageNum):
+    pageNum -= 1
     # print("#"*30+"download quarterly magazine PDF"+"#"*30)
 
     url_magazine = "https://www.tva.org.tw/Publications?k2=021ed026180c400ea0fd7c6fe5d61588&"
@@ -42,7 +42,7 @@ def getMagazine():
     # for span in vol_list:
     #     print(span.text.strip())
 
-    for i in range(1, 48):
+    for i in range(1, pageNum):
         target_list.append("Vol. " + str(i).zfill(2))
 
     for span in vol_list:
@@ -73,7 +73,7 @@ def getMagazine():
     # print("#"*30+"Seperate all PDFs"+"#"*30)
 
     black_list = ['도표', "통계", "Content", "fax"]
-    for vol in range(1, 48):
+    for vol in range(1, pageNum):
         pdf_in_file = f"pdf/v{str(vol).zfill(2)}.pdf"
         try:
             with pdfplumber.open(pdf_in_file) as pdf_plumber:
@@ -123,7 +123,7 @@ def getMagazine():
                 if len(cleaned_text) > 140:
                     with open(os.path.join(file_dir, txt_out_file), "w") as fOutput:
                         fOutput.write(cleaned_text)
-    #                     print("="*48+txt_out_file+"="*48)
+    #                     print("="*47+txt_out_file+"="*47)
     #                     print(len(cleaned_text))
 
         except Exception as e:
@@ -143,7 +143,7 @@ def getMagazine():
 
     # print("#"*30+"txt_volumes"+"#"*30)
 
-    for num in range(1, 48):
+    for num in range(1, pageNum):
         volume = f"v{str(num).zfill(2)}"
         with open(os.path.join(file_dir, "txt_volumes", f"{volume}.txt"), "w") as ouputTxt:
             for txt in txtList:

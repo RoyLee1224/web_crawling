@@ -11,29 +11,32 @@ This script uses Python3. Before running this script, please make sure you have 
 
 - requests
 - beautifulsoup4
-- PyPDF2
+- PyPDF4
 - pdfminer
+- pdfplumber
 
 If you have not installed these libraries, please install them with the following command:
 
-`!pip install requests beautifulsoup4 PyPDF2 pdfminer`
+`!pip install requests beautifulsoup4 PyPDF4 pdfminer pdfplumber`
 
 ## How to use
 
 1. Clone or download the repository to your computer.
 2. Open main.py with any Python IDE.
 3. Run the script.
-4. Quarterly magazine PDF files will be downloaded in the pdf directory.
-5. Quarterly magazine txt files will be downloaded in the txt directory.
+4. Magazine PDF will be downloaded in the pdf directory.
+5. Magazine txt will be downloaded in two versions.
+   1. `txt_pages`: Separated by pages(ex: v01-p1.txt)
+   2. `txt_volumes`: Separated by volumes(ex: v01.txt)
 
 ## Description
 
 - `thema.txt` - **Theme Travel** from [테마여행](https://www.taiwantour.or.kr/bbs/board.php?bo_table=m08_01&sca=%ED%9C%B4%EC%96%91).
 - `pro.txt` - **Professional travel** from [프로대만족](https://www.taiwantour.or.kr/bbs/board.php?bo_table=m03).
 - `place.txt` - **Taiwan's attractions** from [대만 명소](https://www.taiwantour.or.kr/bbs/board.php?bo_table=m03).
-- `Quarterly magazine PDFs` - **Vol. 44~46 quarterly magazine PDF(대만관광격월간)** from [TVA website](http://www.tva.org.tw).
+- `Quarterly magazine PDFs` - **Vol. 1~47 quarterly magazine PDF(대만관광격월간)** from [TVA website](http://www.tva.org.tw).
 
 ## Note
 
-- If you encounter any error or the PDF files are not downloading, please check your internet connection and try again.
-- There are `20` pages in the **Professional travel(프로대만족)** and `8` pages in **Taiwan's attractions(대만 명소)** currently. Please adjust the number of pages in the `get_pro_page` and `get_place_page` functions if there's new article in those pages.
+- Currently, there are `20` pages in **Professional travel(프로대만족)** and `8` pages in **Taiwan's attractions(대만 명소)** . If there're new articles in those pages, adjust the numbers in `get_pro_page` and `get_place_page` functions in **taiwanTour.py** .
+- Currently, there are `47` volumes of magazines. If there's new article, adjust the number of `getMagazine` function in **main.py** .
