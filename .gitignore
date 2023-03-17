@@ -5,6 +5,7 @@ txt/
 txt_pages/
 txt_volumes/
 cache/
+__pycache__/
 
 *.ipynb
 .ipynb_checkpoints
