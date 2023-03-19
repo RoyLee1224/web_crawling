@@ -43,3 +43,4 @@ If you have not installed these libraries, please install them with the followin
 - The usefulness of each magazine page depends on the following conditions:
   - If the number of characters exceeds a certain number, it will be judged as useful content. (Based on experiment, using 140 characters as a criterion provides better quality)
   - If the content includes key words such as **'도표', "통계", "Content", "fax"**, the page will be skipped. (To avoid extracting tables, contacts, and content tables)
+- V16 magazine is in image format, so the program failed exracting content.
