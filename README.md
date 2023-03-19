@@ -42,4 +42,4 @@ If you have not installed these libraries, please install them with the followin
 - Currently, there are `47` volumes of magazines. If there's new article, adjust the number of `getMagazine` function in **main.py** .
 - The usefulness of each magazin page depends on the following conditions:
   - If the number of characters exceeds a certain number, it will be judged as useful content. (Based on experiment, using 140 characters as a criterion provides better quality)
-  - If the content includes key words such as **'도표', "통계", "Content", "fax"**, the page will be skipped. (To avoid excracting tables, contacts, and content tables)
+  - If the content includes key words such as **'도표', "통계", "Content", "fax"**, the page will be skipped. (To avoid extracting tables, contacts, and content tables)
